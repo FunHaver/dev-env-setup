@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 echo "Installing basic toolset"
-sudo apt-get -y install vim git ntp
+sudo apt-get -y install man vim git ntp
 
 echo "syncing date/time"
 sudo systemctl restart ntp
